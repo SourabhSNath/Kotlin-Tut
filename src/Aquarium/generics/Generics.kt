@@ -1,4 +1,4 @@
-package com.sourabh.generics
+package Aquarium.generics
 
 fun main() {
     genericExample()

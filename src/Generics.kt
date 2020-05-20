@@ -1,7 +1,7 @@
-// See generics is com.sourabh
+// See generics is Aquarium
 class MyList<T> {
     fun get(pos: Int): T {
-        TODO("implement")
+        TODO()
     }
 
     fun addItem(item: T) {}

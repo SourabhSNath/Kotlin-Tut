@@ -1,4 +1,4 @@
-package com.sourabh.decor
+package Aquarium.decor
 
 data class Decoration(
     val rocks: String, val wood: String, val diver: String

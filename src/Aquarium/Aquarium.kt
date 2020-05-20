@@ -1,4 +1,4 @@
-package com.sourabh
+package Aquarium
 
 open class Aquarium(var length: Int = 100, var width: Int = 20, open var height: Int = 40) {
 

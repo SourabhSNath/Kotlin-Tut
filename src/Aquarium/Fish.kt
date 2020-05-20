@@ -1,4 +1,4 @@
-package com.sourabh
+package Aquarium
 
 interface FishAction {
     fun eat()

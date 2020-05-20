@@ -1,6 +1,6 @@
-package com.sourabh
+package Aquarium
 
-import com.sourabh.decor.makeDecoration
+import Aquarium.decor.makeDecoration
 
 fun main() {
 

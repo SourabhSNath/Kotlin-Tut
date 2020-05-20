@@ -1,4 +1,4 @@
-package com.sourabh
+package Aquarium
 
 /**
  * Abstract class that has properties common to all fish
