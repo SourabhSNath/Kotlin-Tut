@@ -1,7 +1,7 @@
 /**
  * Specifies the name for the Java class or method which is generated from this element.
  */
-@file:JvmName("InteropFish")
+//@file:JvmName("InteropFish")
 
 import kotlin.reflect.full.declaredMemberFunctions
 import kotlin.reflect.full.findAnnotation
@@ -51,22 +51,22 @@ annotation class OnSet
 /**
  * Using reflection to get information about the class at runtime
  */
-fun reflections() {
-    val classObj = Plant::class
-
-    // Print function name
-    for (function in classObj.declaredMemberFunctions) {
-        println(function.name)
-    }
-
-    // Printing all the annotation names used in the Plant class
-    for (annotation in classObj.annotations) {
-        println(annotation.annotationClass.simpleName)
-    }
-
-    // Finding an annotation and doing something with it
-    val annotated = classObj.findAnnotation<IAmAPlant>()
-    annotated?.apply {
-        println("Found the annotation and printing this")
-    }
-}
+//fun reflections() {
+//    val classObj = Plant::class
+//
+//    // Print function name
+//    for (function in classObj.declaredMemberFunctions) {
+//        println(function.name)
+//    }
+//
+//    // Printing all the annotation names used in the Plant class
+//    for (annotation in classObj.annotations) {
+//        println(annotation.annotationClass.simpleName)
+//    }
+//
+//    // Finding an annotation and doing something with it
+//    val annotated = classObj.findAnnotation<IAmAPlant>()
+//    annotated?.apply {
+//        println("Found the annotation and printing this")
+//    }
+//}
