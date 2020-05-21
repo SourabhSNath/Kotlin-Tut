@@ -53,11 +53,11 @@ val lambda: (Int) -> Int = { d -> d / 2 }
  *
  * Inside the function body, block is an Extension function on String object
  */
-fun myWith(name: String, block: String.() -> String): String {
+inline fun myWith(name: String, block: String.() -> String): String {
     return name.block()
 }
 
-fun listHigherOrderFun(list: List<Int>, operation: List<Int>.() -> List<Int>): List<Int> {
+inline fun listHigherOrderFun(list: List<Int>, operation: List<Int>.() -> List<Int>): List<Int> {
     return list.operation()
 }
 

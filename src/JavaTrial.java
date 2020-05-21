@@ -3,9 +3,13 @@ import java.util.Arrays;
 
 public class JavaTrial {
     public JavaTrial(String s) {
-
+        s = "This is a useless constructor";
     }
+
     public static void main(String[] args) {
+
+        System.out.println();
+
         String s = "Sourabh";
         var x = s.toCharArray();
         var l = new ArrayList<Character>();
